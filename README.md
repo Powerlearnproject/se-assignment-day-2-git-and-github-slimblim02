@@ -78,16 +78,20 @@ Typical workflow for using and merging branches:
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
  Forking is a fundamental aspect of Github that creates a personal copy of someone else's repository under your GitHub account. This fork retains a connection to the original repository allowing to pull updates from it, but any changes you make in your fork do not impact the original project. This independence is crucial for experimentation and development.
- Forking vs Cloning
+ 
+Forking vs Cloning
 Forking and cloning are often used together but they serve different purposes:
+
 Forking:
-. Creates a copy of your repository on GitHub under your account
-. Allows you to propose changes back to the original repository via pull request
-. Useful for contributing to projects you do not have direct write access to
+1. Creates a copy of your repository on GitHub under your account
+2. Allows you to propose changes back to the original repository via pull request
+3. Useful for contributing to projects you do not have direct write access to
+   
 Cloning: 
-. Creates a local copy of your repository on your local machine
-. Useful for working on a repository where you have right access or for personal development
-. Changes made to a clone needs to be pushed back to a remote repository to be shared
+1. Creates a local copy of your repository on your local machine
+2. Useful for working on a repository where you have right access or for personal development
+3. Changes made to a clone needs to be pushed back to a remote repository to be shared
+   
 Scenarios where forking can be particularly useful:
 1. Contributing to open source projects
 2. Experimenting with changes
@@ -97,6 +101,6 @@ Scenarios where forking can be particularly useful:
 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
 
-Issues and project boards are essential tools for tracking bugs, managing task and improving project organization on GitHub. They enable developers to communicate effectively, stay organized and deliver high-quality software.
+Issues and project boards are essential tools for tracking bugs, managing task and improving project organization on GitHub. They enable developers to communicate effectively, stay organized and deliver high-quality software. Issues on GitHub serves as a way to report bugs, request features and track tasks, they can be assigned to specific team members and linked to pull request for context. For example, if a developer encounters a bug in the codebase they can create an issue describing  the problem, steps to reproduce and expected behavior. Other team member can then comment on the issue, provide suggestions and work towards a resolution.
 
 ## Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
